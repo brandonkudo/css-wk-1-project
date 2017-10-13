@@ -2,18 +2,13 @@
 
 body {
   box-sizing: border-box;
-
 }
 
 #wrapper {
   margin: 0 auto;
   width: 1200px;
-  position: relative;
 }
 
-#photowrapper {
-
-}
 
 #title {
   text-align: center;
@@ -31,9 +26,6 @@ li {
   display: inline;
 }
 
-#furbyheader {
-  position: relative;
-}
 
 #col1 {
   width: 400px;
