@@ -1,14 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  box-sizing: border-box;
+
+}
+
 #wrapper {
   margin: 0 auto;
   width: 1200px;
   position: relative;
 }
 
+#photowrapper {
+
+}
+
 #title {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+}
+
+ul {
+  float: right;
+  list-style: none;
+}
+
+li {
+  display: inline;
 }
 
 #furbyheader {
-  position: absolute;
+  position: relative;
+}
+
+#col1 {
+  width: 400px;
+  float: left;
+}
+
+#col2 {
+  width: 800px;
+  float: right;
 }
