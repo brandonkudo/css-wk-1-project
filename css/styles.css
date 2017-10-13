@@ -111,6 +111,10 @@ td {
   left: 30px;
 }
 
+#giantfurby:hover {
+  filter: invert();
+}
+
 #footercol2 {
   width: 500px;
   border: 1px solid grey;
