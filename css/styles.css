@@ -1,0 +1,14 @@
+#wrapper {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+}
+
+#furbyheader {
+  position: absolute;
+}
