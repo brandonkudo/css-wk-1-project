@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Monoton|Open+Sans');
 
 body {
   box-sizing: border-box;
@@ -19,9 +19,10 @@ p::first-line {
 #title {
   text-align: center;
   font-size: 50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Monoton', cursive;
   float: left;
   color: #f99f93;
+  border-bottom: 2px solid grey;
 }
 
 ul {
@@ -32,6 +33,11 @@ ul {
 li {
   display: inline;
   padding-right: 30px;
+  color: #848383;
+}
+
+li:hover {
+  cursor: pointer;
   color: #f99f93;
 }
 
@@ -60,7 +66,7 @@ li {
 table {
   border-collapse: collapse;
   border: 2px solid #f99f93;
-  width: 700px;
+  width: 750px;
   font-family: helvetica;
   margin-bottom: 30px;
 }
@@ -110,12 +116,21 @@ td {
   border: 1px solid grey;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 1px 1px 1px black inset;
+  box-shadow: 1px 1px 1px grey inset;
   float: right;
+}
+
+#galheading {
+  text-align: center;
 }
 
 .gallery {
   width: 150px;
+  padding-left: 10px;
+}
+
+.gallery:hover {
+  cursor: pointer;
 }
 
 #buttonwrapper {
@@ -126,6 +141,7 @@ td {
 button {
   margin-bottom: 30px;
   background-color: #f99f93;
+  font-family: 'Carter One', cursive;
   font-size: 20px;;
   border-radius: 10px;
   color: white;
@@ -137,6 +153,7 @@ button {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px grey;
 }
 
 button:hover {
