@@ -9,7 +9,6 @@ body {
   width: 1200px;
 }
 
-
 #title {
   text-align: center;
   font-size: 50px;
@@ -28,11 +27,41 @@ li {
 
 
 #col1 {
-  width: 400px;
+  width: 350px;
   float: left;
 }
 
 #col2 {
-  width: 800px;
+  width: 750px;
   float: right;
+}
+
+.colhead {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid teal;
+  width: 500px;
+  font-family: helvetica;
+}
+
+thead {
+  background-color: teal;
+  color: white;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: grey;
+}
+
+th {
+  padding: 5px;
+  text-align: left;
+}
+
+td {
+  padding: 5px;
 }
