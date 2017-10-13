@@ -134,6 +134,7 @@ td {
 }
 
 #buttonwrapper {
+  border-top: 2px solid grey;
   clear: both;
   position: relative;
 }
