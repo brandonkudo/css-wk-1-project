@@ -2,6 +2,7 @@
 
 body {
   box-sizing: border-box;
+  font-family: helvetica;
 }
 
 #wrapper {
@@ -25,6 +26,9 @@ li {
   display: inline;
 }
 
+#bottomwrapper {
+  clear: both;
+}
 
 #col1 {
   width: 350px;
@@ -64,4 +68,32 @@ th {
 
 td {
   padding: 5px;
+}
+
+/*#footerwrapper {
+  clear: both;
+}*/
+
+#footercol1 {
+  width: 600px;
+  float: left;
+  background-color: red;
+  position: relative;
+  border: 1px solid red;
+  /*height: 1000px;*/
+}
+
+#giantfurby {
+  width: 20%;
+  position: absolute;
+}
+
+#footercol2 {
+  width: 600px;
+  float: right;
+  /*height: 1000px;*/
+}
+
+.gallery {
+  width: 100px;
 }
