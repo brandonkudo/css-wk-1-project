@@ -21,6 +21,9 @@ body {
   border-bottom: 2px solid grey;
 }
 
+#col1text::first-line {
+  font-weight: bold;
+}
 
 ul {
   float: right;
