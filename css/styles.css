@@ -6,10 +6,6 @@ body {
   color: #848383;
 }
 
-p::first-line {
-  font-weight: bolder;
-}
-
 #wrapper {
   background-color: white;
   margin: 0 auto;
@@ -25,6 +21,7 @@ p::first-line {
   border-bottom: 2px solid grey;
 }
 
+
 ul {
   float: right;
   list-style: none;
@@ -39,6 +36,18 @@ li {
 li:hover {
   cursor: pointer;
   color: #f99f93;
+}
+
+#photowrapper {
+  position: relative;
+}
+
+#phototext {
+  z-index: 1;
+  font-family: times;
+  position: absolute;
+  top: 210px;
+  left: 20px;
 }
 
 #bottomwrapper {
